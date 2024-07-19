@@ -26,3 +26,5 @@ export default async function Page({ params }: { params: ParsedUrlQuery }) {
 
   return <MakeswiftPage snapshot={snapshot} />
 }
+
+export const runtime = 'edge';
